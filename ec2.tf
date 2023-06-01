@@ -9,6 +9,8 @@ resource "aws_instance" "my-ec2-1a" {
   
   tags = {
     Name = "my-ec2-1a"
+  }
+}
 
 resource "aws_instance" "my-ec2-1b" {
   ami           = "ami-011996ff98de391d1" 
@@ -21,4 +23,6 @@ resource "aws_instance" "my-ec2-1b" {
   
   tags = {
     Name = "my-ec2-1b"
+  }
+}
 
